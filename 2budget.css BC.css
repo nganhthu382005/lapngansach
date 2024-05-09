@@ -1,0 +1,149 @@
+#hr1 {
+    position: absolute;
+    width: 900px;
+    height: 0px;
+    left: 54px;
+    top: 100px;
+    
+    border: 1px solid #000000;
+    transform: rotate(0.13deg);
+    }
+    container{
+        /* thanh lựa chọn */
+        position: absolute;
+        width: 100%;
+        height: 104px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    li{
+        /* TEAM8 */
+    
+        position: absolute;
+        width: 176px;
+        height: 48px;
+        left: calc(50% - 176px/2 - 486px);
+        top: calc(50% - 48px/2 + 14.5px);
+    
+        list-style: none;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+    
+        color: #000000;
+    
+    }   
+    nav{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+    } 
+    #logo img {
+        /* logo */
+    
+        position: absolute;
+        width: 59px;
+        height: 59px;
+        left: 51px;
+        top: 33px;
+        background: url(image/logo.jpg);
+    }
+        #logo img {
+            /* circle */
+        
+        position: absolute;
+        width: 59px;
+        height: 59px;
+        left: 51px;
+        top: 33px;
+        background: url(image/user.jpg);
+    }
+    #main-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        font-weight: bolder
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+body {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 250px;
+    top: 3px;
+list-style: none;
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+text-align: center;
+}
+.container {
+    max-width: 700px;
+    margin: 200px auto;
+    background-color: rgb(184, 185, 182);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.btnThem{
+    background-color: rgb(184, 185, 182);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.item{
+    width: 150px;
+}
+input{
+    border-radius: 100px;
+    margin-left: 10px; 
+    width: 300px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
